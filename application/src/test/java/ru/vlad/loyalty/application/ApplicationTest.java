@@ -108,7 +108,6 @@ public class ApplicationTest {
         }
     }
 
-
     @Test
     public void whenCalculateAverageWeightedFor99AndDoChecks_thenReceiveResult() throws Exception {
         //given

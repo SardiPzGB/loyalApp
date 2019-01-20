@@ -19,7 +19,6 @@ import static org.springframework.http.HttpStatus.OK;
 @RunWith(MockitoJUnitRunner.class)
 public class AverageWeightedRatingTest {
 
-
     @Mock
     private Requests mockRequests;
 
