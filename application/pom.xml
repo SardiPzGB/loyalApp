@@ -75,7 +75,7 @@
         <dependency>
             <groupId>javax.servlet</groupId>
             <artifactId>javax.servlet-api</artifactId>
-            <version>3.0.1</version>
+            <version>3.1.0</version>
             <scope>provided</scope>
         </dependency>
         <dependency>
@@ -89,25 +89,22 @@
     <build>
         <plugins>
             <plugin>
-                <groupId>org.apache.tomcat.maven</groupId>
-                <artifactId>tomcat7-maven-plugin</artifactId>
-                <version>2.0</version>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-maven-plugin</artifactId>
                 <executions>
                     <execution>
-                        <id>tomcat-run</id>
                         <goals>
-                            <goal>exec-war-only</goal>
+                            <goal>repackage</goal>
                         </goals>
-                        <phase>package</phase>
                         <configuration>
-                            <path>/</path>
-                            <enableNaming>false</enableNaming>
-                            <finalName>webapp.jar</finalName>
+                            <classifier>spring-boot</classifier>
+                            <mainClass>
+                                ru.vlad.loyalty.application.Application
+                            </mainClass>
                         </configuration>
                     </execution>
                 </executions>
             </plugin>
-
         </plugins>
     </build>
 
