@@ -121,7 +121,7 @@ public class ApplicationTest {
                         .andDo(print())
                         .andExpect(status().isOk())
                 .andReturn();
-                log.info("Final plain weighted for documental is {}",
+                log.info("Final weighted average for documental is {}",
                         res.getResponse().getContentAsString());
             } catch (Exception e) {
                 log.error("Cannot calculate rating", e);
