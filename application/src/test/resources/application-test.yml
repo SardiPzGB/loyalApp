@@ -1,0 +1,9 @@
+application:
+  web:
+    main_url: https://easy.test-assignment-a.loyaltyplant.net/
+    genre_list_url: 3/genre/movie/list?api_key=
+    films_list_url: 3/discover/movie?api_key=
+    key: 72b56103e43843412a992a8d64bf96e9
+spring:
+  profiles:
+    active: test
