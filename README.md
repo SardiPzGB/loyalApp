@@ -18,3 +18,5 @@ Built-in Tomcat works on 8080 port, Swagger can be found on standard /swagger-ui
 /films/ratingweighted - requires genre id and calculates weighted average rating of all films of this genre
 
 /films/stop - stops current download.
+
+/swagger-ui.html - standard Swagger endpoint
