@@ -1,5 +1,5 @@
 # loyalApp
-This is a test work for Loyalty Plant. This app can connect to defined URL (see application.yml) and collect data with provided key.
+This app can connect to defined URL (see application.yml) and collect data with provided key.
 Data collection goes in background, only one collection process can be launched at a time, others will stay in a queue.
 You can check status of download or stop it and lose all collected data.
 
