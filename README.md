@@ -5,7 +5,7 @@ You can check status of download or stop it and lose all collected data.
 
 Tech: Spring Boot, JUnit4/Mockito
 
-Built-in Tomcat works on 9999 port (check application.yml), Swagger can be found on standard /swagger-ui.html# endpoint
+Built-in Tomcat works on 9999 port (can be changed in application.yml on `server:port`), Swagger can be found on standard /swagger-ui.html# endpoint
 
 ## Building
 
