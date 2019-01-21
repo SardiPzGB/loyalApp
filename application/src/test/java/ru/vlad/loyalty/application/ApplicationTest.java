@@ -95,7 +95,7 @@ public class ApplicationTest {
         //then
         String status = "";
 
-        while(!status.equals("100,0%")){
+        while(!status.equals("100,0%") && !status.equals("0,0%")){
             Thread.sleep(5000);
 
             // check status
@@ -131,7 +131,7 @@ public class ApplicationTest {
         //then
         String status = "";
 
-        while(!status.equals("100,0%")){
+        while(!status.equals("100,0%") && !status.equals("0,0%")){
             Thread.sleep(5000);
 
             // check status
