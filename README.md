@@ -24,3 +24,14 @@ Built-in Tomcat works on 9999 port (check application.yml), Swagger can be found
 ## Building
 
 Make simple `mvn clean package` for build an executable jar file. You can add `-DskipTests` for skipping tests (they can take up to 10 minutes depending on speed of your internet connection).
+
+## Testing
+
+You can check ApplicationTest.java for integration tests that shows functionality of an app.
+
+Tests are:
+* receiving lists of genres 
+* calculation of plain average for documentary films (id = 99) genre, status of calculation will be shown every 5 seconds
+* calculation of weighted average for documentary films (id = 99) genre, status of calculation will be shown every 5 seconds
+* stopping of calculation plain average after 10 seconds after start
+* stopping of calculation weighted average after 10 seconds after start
