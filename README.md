@@ -20,3 +20,7 @@ Built-in Tomcat works on 9999 port (check application.yml), Swagger can be found
 /films/stop - stops current download.
 
 /swagger-ui.html - standard Swagger endpoint
+
+## Building
+
+Make simple `mvn clean package` for build an executable jar file. You can add -DskipTests for skipping tests (they can take up to 10 minutes depending on speed of your internet connection).
