@@ -18,9 +18,9 @@ Make simple `mvn clean package` for build an executable jar file. You can add `-
 
 /films/genres - downloads list of a film genres and their id's
 
-/films/ratingplain - requires genre id and calculates plain average rating of all films of this genre
+/films/ratingplain?genreId={integerGenreId} - requires genre id and calculates plain average rating of all films of this genre
 
-/films/ratingweighted - requires genre id and calculates weighted average rating of all films of this genre
+/films/ratingweighted?genreId={integerGenreId} - requires genre id and calculates weighted average rating of all films of this genre
 
 /films/stop - stops current download.
 
